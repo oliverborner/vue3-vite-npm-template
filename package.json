@@ -19,21 +19,21 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/[USERNAME]/vue3-vite-npm-template.git"
+    "url": "https://github.com/oliverborner/bandsintown-gig-map-npm.git"
   },
-  "homepage": "https://[USERNAME].github.io/vue3-vite-npm-template/",
+  "homepage": "https://oliverborner.github.io/bandsintown-gig-map-npm/",
   "bugs": {
-    "url": "https://github.com/[USERNAME]/vue3-vite-npm-template/issues"
+    "url": "https://github.com/oliverborner/bandsintown-gig-map-npm/issues"
   },
   "files": [
     "dist"
   ],
-  "main": "./dist/vue3-vite-npm-template.umd.cjs",
-  "module": "./dist/vue3-vite-npm-template.js",
+  "main": "./dist/bandsintown-gig-map-npm.umd.cjs",
+  "module": "./dist/bandsintown-gig-map-npm.js",
   "exports": {
     ".": {
-      "import": "./dist/vue3-vite-npm-template.js",
-      "require": "./dist/vue3-vite-npm-template.umd.cjs",
+      "import": "./dist/bandsintown-gig-map-npm.js",
+      "require": "./dist/bandsintown-gig-map-npm.umd.cjs",
       "types": "./dist/index.d.ts"
     },
     "./style.css": "./dist/style.css"
