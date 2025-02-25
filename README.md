@@ -144,3 +144,4 @@ Distributed under the MIT License. See [LICENSE](LICENSE.md) for more informatio
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+# bandsintown-gig-map-npm
