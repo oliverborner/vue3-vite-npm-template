@@ -1,6 +1,6 @@
 {
-  "name": "vue3-vite-npm-template",
-  "author": "Your name <yourmail@mail.com> (https://github.com/[USERNAME])",
+  "name": "bandsintown-gig-map-npm",
+  "author": "Oliver Borner <oliverborner@gmail.com> (https://github.com/oliverborner)",
   "version": "0.0.0",
   "license": "MIT",
   "description": "Your package description",
@@ -8,8 +8,8 @@
   "type": "module",
   "contributors": [
     {
-      "name": "Your name",
-      "email": "yourmail@mail.com"
+      "name": "Oliver Borner",
+      "email": "oliverborner@gmail.com"
     }
   ],
   "keywords": [

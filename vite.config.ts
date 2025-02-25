@@ -38,7 +38,7 @@ export default defineConfig(({ mode }) => {
         lib: {
           entry: resolve(__dirname, 'src/myPackagePlugin/index.ts'),
           name: 'Vue3ViteNpmTemplate',
-          fileName: 'vue3-vite-npm-template',
+          fileName: 'bandsintown-gig-map-npm',
         },
         rollupOptions: {
           external: ['vue'],
