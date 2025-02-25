@@ -1,30 +1,40 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+  import GigMap from './components/BandsinTownGigMap.vue'
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
-</template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<!--  
+  /**
+  * @param {object} credentials
+  * @param {number} artist_id - bandsintown artist id
+  * @param {string} api_key - your bandsintown api key
+  *
+  * @param {object} leaflet_settings
+  * @param {string} height - has to be determined in pixels
+  * @param {string} width - percentage or pixels
+  * @param {number} start_latitude - latitude of the starting position of the map
+  * @param {number} start_longitude - longitude of the starting position of the map
+  * @param {number} start_zoomlevel - zoomlevel of the map (near < 5 > far away)
+  *
+  */ 
+-->
+
+  <GigMap 
+
+    :credentials="{
+      artist_id: 15532658,
+      api_key: 'd50a015e4d6ccf1a0204a4cc9aa32d09'
+    }" 
+
+    :leaflet_settings="{
+      height: '450px',
+      width: '100%',
+      start_latitude: 50.2334908498,
+      start_longitude: 12,
+      start_zoomlevel: 4.4
+    }"
+
+  />
+
+</template>
